@@ -2,8 +2,4 @@
 name = "daldroid"
 compatibility_flags = ["nodejs_compat"]
 compatibility_date = "2024-07-01"
-pages_build_output_dir = "build/client"
 send_metrics = false
-
-[build]
-command = "remix vite:build"
