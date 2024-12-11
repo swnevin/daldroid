@@ -6,7 +6,13 @@ import { Header } from '~/components/header/Header';
 import BackgroundRays from '~/components/ui/BackgroundRays';
 
 export const meta: MetaFunction = () => {
-  return [{ title: 'Daldroid by Dalai' }, { name: 'description', content: 'Turn your idea into an app with Daldroid, your AI-powered app development assistant' }];
+  return [
+    { title: 'Daldroid by Dalai' },
+    {
+      name: 'description',
+      content: 'Turn your idea into an app with Daldroid, your AI-powered app development assistant',
+    },
+  ];
 };
 
 export const loader = () => json({});
